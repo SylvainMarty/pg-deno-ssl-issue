@@ -1,6 +1,7 @@
 {
   "tasks": {
-    "start": "deno run --allow-env --allow-net pg_bug.ts"
+    "start:bug": "deno run --allow-env --allow-net pg_bug.ts",
+    "start:no-bug": "deno run --allow-env --allow-net pg_no_bug.ts"
   },
   "imports": {
     "@std/assert": "jsr:@std/assert@1",
